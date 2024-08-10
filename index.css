@@ -27,7 +27,7 @@ body {
   margin-top: 3rem;
   margin-left: 50%;
   transform: translate(-50%);
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .header {
@@ -64,7 +64,7 @@ body {
   color: #fff;
   font-size: 2rem;
   padding: 1rem;
-  padding-bottom: 3rem;
+  padding-bottom: 5rem;
   letter-spacing: 2px;
 }
 
