@@ -27,7 +27,7 @@ body {
   margin-top: 3rem;
   margin-left: 50%;
   transform: translate(-50%);
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .header {
@@ -48,7 +48,7 @@ body {
 
 .container-body {
   width: 100%;
-  height: 97%;
+  height: 77%;
   overflow-y: scroll;
   overflow-x: hidden;
 }
@@ -85,4 +85,23 @@ body {
 
 .d-n {
   display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 95%;
+    height: 95vh;
+  }
+
+  .header-text {
+    font-size: 2rem;
+  }
+
+  .story-text {
+    font-size: 1.7rem;
+  }
+
+  .flower_iamge {
+    width: 100%;
+  }
 }
